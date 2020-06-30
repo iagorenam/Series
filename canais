@@ -1,8 +1,6 @@
-#EXTM3U
-#PLAYLISTV: pltv-logo="XXX LINK LOGO XXX" pltv-name="XXX NOME DA LISTA XXX" pltv-description="XXX DESCRI��O DA LISTA XXX" pltv-cover="XXX CAPA DA LISTA XXX" pltv-author="XXX AUTOR DA LISTA XXX" pltv-site="XXX SITE CASO HOUVER XXX" pltv-email="XXX E-MAIL XXX"
+#EXTM3U caixapreta.pt
 
+# TV
 
-################## XXXX SEPARADOR XXXX ########################
-
-#EXTINF:-1 tvg-logo="XXXX LINK DO LOGO DO CANAL XXX" group-title="XXX TITULO DO GRUPO- CATEGORIA XXX" pltv-subgroup="XXX SUBGRUPOXXX", XXX NOME DO CANAL, EXEMPLO DBZ EPISODIO 1 XXX
-XXXX LINK STREAM DIRETO .MP4, .M3U, ETC XXXX
+#EXTINF:-1 group-title="TV" tvg-id="RTP1" tvg-logo="https://caixapreta.pt/logos/RTP1.png",RTP 1
+https://streaming-live-app.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
